@@ -21,10 +21,6 @@ class User < ApplicationRecord
 
     has_many :enrolled_courses,
         through: :enrollments,
-        source: :Course
+        source: :course
 
-
-    
-
-    
 end
